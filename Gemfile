@@ -47,3 +47,5 @@ end
 gem 'spree', '~> 3.1.0.rc1'
 gem 'spree_auth_devise', '~> 3.1.0.rc1'
 gem 'spree_gateway', '~> 3.1.0.rc1'
+ # spree_i18n extension containing community contributed translations of Spree & ability to supply different attribute values per language such as product names and descriptions.
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n', branch: 'master'
